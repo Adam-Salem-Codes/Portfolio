@@ -300,7 +300,7 @@ export default function Home() {
           className="min-h-screen flex items-center justify-center flex-col"
            id="history"
         >
-          <VerticalTimeline visible={true}>
+          <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{ background: "rgb(59, 130, 246)", color: "#fff" }}
