@@ -8,7 +8,7 @@ export default function Footer() {
       <footer className="h-fit w-full p-12 dark:bg-gradient-to-b dark:from-background dark:to-black text-black dark:text-white">
         <div className="h-full flex w-full">
           <Link
-            className="text-2xl dark:text-white hover:text-blue-500 duration-500 absolute"
+            className="text-2xl max-md:hidden dark:text-white hover:text-blue-500 duration-500 absolute"
             href="/resume.pdf"
           >
             Formal Resume
@@ -44,7 +44,7 @@ export default function Footer() {
             </Link>
           </div>
           <h1
-            className="text-2xl dark:text-white hover:text-blue-500 duration-500 absolute right-8 cursor-default"
+            className="text-2xl max-md:hidden dark:text-white hover:text-blue-500 duration-500 absolute right-8 cursor-default"
           >
             Adam Salem © 2024
           </h1>

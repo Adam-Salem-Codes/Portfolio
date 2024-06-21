@@ -1,0 +1,12 @@
+
+
+.vertical-timeline-element--work{
+    @apply hover:rotate-3 duration-200  hover:scale-105 text-black;
+}
+
+.vertical-timeline.vertical-timeline--two-columns:before{
+    @apply bg-gray-500 rounded-full;
+}
+.vertical-timeline-element-date{
+    @apply dark:text-white text-black;
+}
