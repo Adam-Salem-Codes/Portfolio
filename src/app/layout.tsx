@@ -31,15 +31,6 @@ export default function RootLayout({
         )}
       >
         <Navbar>
-          <Link href="/" className="hover:text-blue-500 duration-200">
-            Adam Salem
-          </Link>
-          <Link href="/" className="hover:text-blue-500 duration-200">
-            Resume
-          </Link>
-          <Link href="/" className="hover:text-blue-500 duration-200">
-            About
-          </Link>
           <ThemeToggle />
         </Navbar>
         {children}

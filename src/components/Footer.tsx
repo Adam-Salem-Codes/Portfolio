@@ -7,12 +7,6 @@ export default function Footer() {
     <PopScroll>
       <footer className="h-fit w-full p-12 dark:bg-gradient-to-b dark:from-background dark:to-black text-black dark:text-white">
         <div className="h-full flex w-full">
-          <Link
-            className="text-2xl max-md:hidden dark:text-white hover:text-blue-500 duration-500 absolute"
-            href="/resume.pdf"
-          >
-            Formal Resume
-          </Link>
           <div className="w-full h-full flex justify-center items-center">
             <Link
               className="text-2xl dark:text-white hover:text-blue-500 mx-2 dark:hover:fill-blue-500 dark:fill-white fill-black hover:fill-blue-500 duration-500 flex w-6 h-6"
